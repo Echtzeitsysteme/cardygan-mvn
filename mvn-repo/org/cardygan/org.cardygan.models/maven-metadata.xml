@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.cardygan</groupId>
+  <artifactId>org.cardygan.models</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180120163229</lastUpdated>
+  </versioning>
+</metadata>
