@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.cardygan</groupId>
+  <artifactId>org.cardygan.xtext.target</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20180120155341</lastUpdated>
+  </versioning>
+</metadata>

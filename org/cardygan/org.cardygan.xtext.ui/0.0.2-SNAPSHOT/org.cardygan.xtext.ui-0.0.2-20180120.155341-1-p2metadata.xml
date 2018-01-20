@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.cardygan.xtext.ui' version='0.0.2.201801201553'>
+    <update id='org.cardygan.xtext.ui' range='[0.0.0,0.0.2.201801201553)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='org.cardygan.xtext.ui'/>
+      <property name='maven-groupId' value='org.cardygan'/>
+      <property name='maven-artifactId' value='org.cardygan.xtext.ui'/>
+      <property name='maven-version' value='0.0.2-SNAPSHOT'/>
+    </properties>
+    <provides size='6'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.cardygan.xtext.ui' version='0.0.2.201801201553'/>
+      <provided namespace='osgi.bundle' name='org.cardygan.xtext.ui' version='0.0.2.201801201553'/>
+      <provided namespace='java.package' name='org.cardygan.xtext.ui.contentassist' version='0.0.0'/>
+      <provided namespace='java.package' name='org.cardygan.xtext.ui.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.cardygan.xtext.ui.quickfix' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='15'>
+      <required namespace='osgi.bundle' name='org.eclipse.compare' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtend.lib' range='0.0.0' optional='true' greedy='false'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.builder' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.common.types.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.ui.codetemplates.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.ui.shared' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.xtext.xbase.lib' range='0.0.0'/>
+      <required namespace='java.package' name='org.apache.log4j' range='0.0.0'/>
+      <required namespace='java.package' name='org.cardygan.xtext' range='0.0.0'/>
+      <required namespace='java.package' name='org.cardygan.xtext.ide.contentassist.antlr' range='0.0.0'/>
+      <required namespace='java.package' name='org.cardygan.xtext.ide.contentassist.antlr.internal' range='0.0.0'/>
+      <required namespace='java.package' name='org.cardygan.xtext.parser.antlr.internal' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.cardygan.xtext.ui' version='0.0.2.201801201553'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.cardygan.xtext.ui;singleton:=true&#xA;Bundle-Version: 0.0.2.201801201553&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
