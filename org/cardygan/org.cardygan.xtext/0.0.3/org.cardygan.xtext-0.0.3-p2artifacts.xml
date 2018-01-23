@@ -3,8 +3,8 @@
 <artifacts size='1'>
   <artifact classifier='osgi.bundle' id='org.cardygan.xtext' version='0.0.3'>
     <properties size='5'>
-      <property name='artifact.size' value='132340'/>
-      <property name='download.size' value='132340'/>
+      <property name='artifact.size' value='132338'/>
+      <property name='download.size' value='132338'/>
       <property name='maven-groupId' value='org.cardygan'/>
       <property name='maven-artifactId' value='org.cardygan.xtext'/>
       <property name='maven-version' value='0.0.3'/>
