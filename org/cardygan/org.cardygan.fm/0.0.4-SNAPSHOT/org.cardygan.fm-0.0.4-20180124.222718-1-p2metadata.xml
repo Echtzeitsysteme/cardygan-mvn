@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.cardygan.fm' version='0.0.4.201801242226'>
+    <update id='org.cardygan.fm' range='[0.0.0,0.0.4.201801242226)' severity='0'/>
+    <properties size='7'>
+      <property name='df_LT.providerName' value='www.example.org'/>
+      <property name='org.eclipse.equinox.p2.name' value='org.cardygan.fm'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%providerName'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      <property name='maven-groupId' value='org.cardygan'/>
+      <property name='maven-artifactId' value='org.cardygan.fm'/>
+      <property name='maven-version' value='0.0.4-SNAPSHOT'/>
+    </properties>
+    <provides size='8'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.cardygan.fm' version='0.0.4.201801242226'/>
+      <provided namespace='osgi.bundle' name='org.cardygan.fm' version='0.0.4.201801242226'/>
+      <provided namespace='java.package' name='org.cardygan.fm.utils' version='0.0.0'/>
+      <provided namespace='java.package' name='org.cardygan.fm' version='0.0.0'/>
+      <provided namespace='java.package' name='org.cardygan.fm.impl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.cardygan.fm.util' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.ecore' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.emf.ecore.xmi' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.cardygan.fm' version='0.0.4.201801242226'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.cardygan.fm;singleton:=true&#xA;Bundle-Version: 0.0.4.201801242226&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
