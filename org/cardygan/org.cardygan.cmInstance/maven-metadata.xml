@@ -4,8 +4,8 @@
   <artifactId>org.cardygan.cmInstance</artifactId>
   <versioning>
     <versions>
-      <version>0.0.4-SNAPSHOT</version>
+      <version>0.1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20180124234851</lastUpdated>
+    <lastUpdated>20180126132135</lastUpdated>
   </versioning>
 </metadata>
