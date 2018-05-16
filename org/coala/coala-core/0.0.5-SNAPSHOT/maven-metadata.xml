@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.coala</groupId>
+  <artifactId>coala-core</artifactId>
+  <version>0.0.5-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20180516.165842</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20180516165842</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.5-20180516.165842-1</value>
+        <updated>20180516165842</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.5-20180516.165842-1</value>
+        <updated>20180516165842</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
