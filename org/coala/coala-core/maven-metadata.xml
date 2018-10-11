@@ -4,8 +4,8 @@
   <artifactId>coala-core</artifactId>
   <versioning>
     <versions>
-      <version>0.2.0-SNAPSHOT</version>
+      <version>0.3.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181005093638</lastUpdated>
+    <lastUpdated>20181011100326</lastUpdated>
   </versioning>
 </metadata>
